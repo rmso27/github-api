@@ -4,7 +4,7 @@
 Script to query GitHub API and get yearly contributions. The output is a JSON file that can be easily integrted with other apps.
 
 ### Setup & Execution
-1. Edit the `configs/configs.ini` file and update the following the vars `API_URL` and `AUTH_TOKEN`;
+1. Edit the `configs/configs.ini` file and update the vars `API_URL` and `AUTH_TOKEN`;
 2. Execute the script; <br />
 `python github-api.py`
 
