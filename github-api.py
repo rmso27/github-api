@@ -62,7 +62,6 @@ def get_contributions(created_at, graph_api_url, header):
 
         # POST request
         response = requests.post(graph_api_url, json = {'query': query, 'variables': variables}, headers = header)
-        print(response)
         data = response.json()
 
         # Build list of contributions
